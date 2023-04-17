@@ -21,17 +21,27 @@
 		"@openzeppelin/contracts": "^4.2.0",
 		"@typechain/ethers-v5": "^10.1.0",
 		"@typechain/hardhat": "^6.1.2",
+		"@types/chai": "^4.3.4",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "^18.15.11",
 		"@uniswap/lib": "4.0.1-alpha",
 		"chai": "^4.3.7",
-		"ethers": "^5.4.7",
-		"hardhat": "^2.12.2",
+		"ethers": "^5.7.2",
+		"hardhat": "^2.14.0",
 		"hardhat-gas-reporter": "^1.0.8",
 		"solidity-coverage": "^0.8.0",
 		"typechain": "^8.1.0"
 	},
 	"dependencies": {
+		"@matterlabs/hardhat-zksync-deploy": "^0.6.3",
+		"@matterlabs/hardhat-zksync-solc": "^0.3.16",
 		"@openzeppelin/test-helpers": "^0.5.16",
 		"@uniswap/lib": "^4.0.1-alpha",
-		"mocha": "^10.1.0"
-	}
+		"mocha": "^10.1.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.4",
+		"zksync-web3": "^0.14.3"
+	},
+	"repository": "https://github.com/Danijel-Enoch/dex-contracts-agam",
+	"author": "Danijel-Enoch <enochdanijel@gmail.com>"
 }

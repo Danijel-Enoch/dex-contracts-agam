@@ -5,6 +5,11 @@ coverage.json
 typechain
 typechain-types
 
+secrets.json
+
+cache-zk
+artifacts-zk
+.vscode
 #Hardhat files
 cache
 artifacts
